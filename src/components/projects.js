@@ -18,7 +18,59 @@ const projects = [
     description: "React + Tailwind dashboard demo showing transactions and charts.",
     liveUrl: "https://stephyjeny.github.io/react-tailwind-project/",
     repoUrl: "https://github.com/StephyJeny/react-tailwind-project",
-    image: projectDashboard
+    image: projectDashboard,
+    techStack: [
+      // Frontend Core Technologies
+      "React 18.3.1", "JavaScript (ES6+)", "JSX", "HTML5", "CSS3",
+      
+      // CSS Framework & Styling
+      "Tailwind CSS 3.3.3", "Dark Mode Implementation", "Responsive Design", "Custom CSS Utilities",
+      
+      // Build Tools & Development
+      "Vite 7.1.7", "PostCSS", "Autoprefixer", "ES Modules", "Hot Module Replacement",
+      
+      // Routing & Navigation
+      "React Router DOM 7.8.2", "Protected Routes", "Dynamic Navigation", "URL Parameters",
+      
+      // State Management
+      "React Context API", "React Hooks", "useState", "useEffect", "useContext", "useMemo", "useCallback", "Local Storage", "Cookie Management",
+      
+      // Form Handling & Validation
+      "React Hook Form 7.64.0", "Zod 4.1.12", "@hookform/resolvers", "Real-time Validation",
+      
+      // Authentication & Security
+      "JWT Token Management", "Role-Based Access Control", "Session Management", "Password Security", "Email Verification", "Password Reset",
+      
+      // HTTP Client & API Integration
+      "Axios 1.12.2", "Request/Response Interceptors", "Error Handling", "API Simulation",
+      
+      // Email Services
+      "Nodemailer 7.0.9", "SendGrid Integration", "Email Templates",
+      
+      // Data Visualization
+      "Recharts 3.1.2", "Line Charts", "Pie Charts", "Interactive Charts",
+      
+      // UI Components & Icons
+      "Heroicons 2.2.0", "Custom Components", "Loading States", "Modal/Dropdown",
+      
+      // Date & Time Handling
+      "date-fns 4.1.0", "Timestamp Management",
+      
+      // Deployment & DevOps
+      "GitHub Pages", "GitHub Actions", "Environment Variables", "Production Builds",
+      
+      // Development Tools
+      "Git Version Control", "npm Package Management", "Environment Configuration",
+      
+      // Security Features
+      "Input Sanitization", "CSRF Protection", "Secure Storage", "Session Timeout",
+      
+      // E-commerce Features
+      "Product Catalog", "Shopping Cart", "Category Filtering", "Search Functionality",
+      
+      // Financial Management
+      "Transaction Management", "Balance Calculation", "Category Management", "Data Persistence"
+    ]
   },
   {
     id: 3,
