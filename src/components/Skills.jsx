@@ -3,22 +3,55 @@ import React from 'react'
 export default function Skills() {
   const skills = [
     // Frontend Technologies
-    'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'JSX',
+    'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'JSX', 'Next.js', 'Remix',
     
     // Styling & UI
-    'Tailwind CSS', 'PostCSS', 'Responsive Design', 'Dark Mode',
+    'Tailwind CSS', 'PostCSS', 'Responsive Design', 'Dark Mode', 'Framer Motion', 'Custom CSS',
     
     // Build Tools & Development
-    'Vite', 'ESLint', 'Git/GitHub', 'Node.js', 'npm',
+    'Vite', 'ESLint', 'Git/GitHub', 'Node.js', 'npm', 'Webpack', 'Turbopack', 'Autoprefixer',
     
-    // React Ecosystem
-    'React Hooks', 'Context API', 'Component Architecture',
+    // React Ecosystem & State Management
+    'React Hooks', 'Context API', 'Component Architecture', 'React Router', 'React Select', 'React Hot Toast',
+    
+    // Backend & Database
+    'Firebase', 'Firestore', 'Firebase Authentication', 'Firebase Storage',
+    
+    // API & HTTP
+    'RESTful APIs', 'Axios', 'Fetch API', 'JWT Tokens',
+    
+    // Data Visualization & Charts
+    'Recharts', 'Chart.js', 'D3',
+    
+    // Form Handling & Validation
+    'React Hook Form', 'Zod', 'Real-time Validation',
+    
+    // Authentication & Security
+    'Session Management', 'Protected Routes', 'Input Sanitization',
+    
+    // PWA & Mobile Features
+    'Progressive Web Apps', 'Service Worker', 'Push Notifications', 'Offline Support',
+    
+    // Communication & Services
+    'Nodemailer', 'Twilio', 'Email Integration',
+    
+    // Scanning & Hardware
+    'Barcode Scanning', 'QR Code Scanning', 'Camera Integration',
     
     // Development Practices
-    'Progressive Web Apps', 'Local Storage', 'Modern JavaScript (ES6+)',
+    'Local Storage', 'Modern JavaScript (ES6+)', 'TypeScript Interfaces', 'Async/Await',
     
-    // Deployment & Tools
-    'Vercel', 'GitHub Pages', 'Module Bundling'
+    // SEO & Performance
+    'SEO Optimization', 'Server-Side Rendering (SSR)', 'Performance Optimization', 'Code Splitting',
+    
+    // Deployment & DevOps
+    'Vercel', 'GitHub Pages', 'GitHub Actions', 'Environment Variables', 'Module Bundling',
+    
+    // UI Libraries & Icons
+    'Heroicons', 'Lucide React', 'Custom Components',
+    
+    // Utility Libraries
+    'Lodash', 'date-fns', 'JSON-LD'
   ]
   
   return (
