@@ -10,8 +10,10 @@ export default function Hero() {
             Hi, I’m <span className="text-teal-500">Stephanie Jeniffer</span>
           </h1>
           <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-xl">
-            I build modern, fast, and responsive web apps using React and Tailwind CSS.
-            I work with clients to ship clean, maintainable web experiences.
+            I'm a full-stack developer specializing in modern web technologies including React, Next.js, and TypeScript. 
+            I create scalable Progressive Web Apps with Firebase backends, implement secure authentication systems, 
+            and build responsive interfaces with Tailwind CSS. From e-commerce platforms to loyalty management systems, 
+            I deliver high-performance solutions that drive business growth.
           </p>
 
           <div className="mt-6 flex gap-3">
