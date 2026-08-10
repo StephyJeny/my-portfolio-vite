@@ -9,7 +9,7 @@ function Card({ p }) {
         <img src={p.image} alt={p.title} className="h-40 w-full object-cover rounded-md mb-3" />
         <h3 className="font-semibold">{p.title}</h3>
         <p className="text-sm text-gray-500 dark:text-gray-300 mt-2 flex-1">{p.description}</p>
-        
+
         {/* Display both client projects with separate buttons */}
         <div className="mt-3 space-y-2">
           {p.clientProjects.map((project, index) => (
@@ -18,17 +18,17 @@ function Card({ p }) {
                 <h4 className="text-sm font-medium">{project.name}</h4>
                 <p className="text-xs text-gray-500 dark:text-gray-400">{project.description}</p>
               </div>
-              <a 
-                href={project.url} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-3 py-1 rounded bg-teal-500 text-white text-xs ml-2"
               >
                 Live
               </a>
             </div>
           ))}
-          
+
           {/* Code button (disabled for client projects) */}
           <div className="mt-2">
             <span className="px-3 py-2 rounded border text-sm text-gray-400 cursor-not-allowed">
@@ -57,6 +57,7 @@ function Card({ p }) {
 }
 
 export default function Projects() {
+  console.log('Projects list:', projects);
   return (
     <section id="projects" className="py-12">
       <div className="max-w-6xl mx-auto">

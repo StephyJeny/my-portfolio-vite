@@ -2,6 +2,7 @@ import projectRestaurant from '../assets/project-restaurant.png'
 import projectDashboard from '../assets/project-dashboard.png'
 import projectLoyaltyProgram from '../assets/project-loyalty-program.png'
 import projectRecipeFinder from '../assets/project-recipe-finder.png'
+import projectRealEstate from '../assets/project-real-estate.png'
 
 const projects = [
   {
@@ -190,6 +191,18 @@ const projects = [
     techStack: [
       "React.js", "JavaScript (ES6+)", "React Router", "Context API", 
       "Tailwind CSS", "RESTful APIs", "Vite", "GitHub Pages", "localStorage"
+    ]
+  },
+  {
+    id: 5,
+    title: "Premium Real Estate Platform",
+    description: "A modern real estate platform showcasing high-end properties, featuring real-time chat, detailed agent profiles, and automated email inquiry systems built with modern web technologies.",
+    liveUrl: "https://realestate-app-three-theta.vercel.app/",
+    repoUrl: null,
+    image: projectRealEstate,
+    techStack: [
+      "Next.js", "React", "Tailwind CSS", "Firebase Auth", 
+      "Firestore", "Firebase Storage", "EmailJS", "Responsive Design"
     ]
   }
 ]
